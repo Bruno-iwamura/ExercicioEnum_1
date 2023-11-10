@@ -9,7 +9,7 @@ namespace ExercicioEnum
         {
             HourContract teste = new HourContract(DateTime.Now,20.0,2);
 
-            double result = teste.totalValue(teste.ValuePerHour, teste.Hours);
+            double result = teste.totalValue();
 
             Console.WriteLine(result);
 

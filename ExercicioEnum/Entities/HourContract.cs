@@ -23,9 +23,9 @@ namespace ExercicioEnum.Entities
             Hours = hours;
         }
 
-        public double totalValue(double value, int hours)
+        public double totalValue()
         {
-            return value * hours;
+            return ValuePerHour * Hours;
         }
 
         public override string ToString()
